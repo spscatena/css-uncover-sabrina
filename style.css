@@ -1,0 +1,66 @@
+body {
+  background-color: yellow;
+
+}
+
+#name {
+  display: flex;
+  border: red solid 3px;
+  justify-content: center;  
+  text-align: center;
+  /* width: auto; */
+  /* margin: auto; */
+  /* margin-top: 10%; */
+
+}
+
+p {
+  width: auto;
+  justify-content: center;  
+  text-align: center;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15vw;
+  border: royalblue solid 3px;
+}
+
+#top {
+  display: flex;
+  width: auto;
+  height: 30vh;
+  border: royalblue 4px solid;
+}
+
+.top-boxes {
+  width: 30vw;
+  border: grey 2px solid;
+}
+
+#left {
+  display: flex;
+  width: 30vw;
+  /* justify-content: center;  
+  text-align: center; */
+  border: black solid 4px;
+
+}
+
+#right {
+  width: 30vw;
+  /* justify-content: center;  
+  text-align: center; */
+  border: black solid 3px;
+}
+
+
+#bottom {
+  display: flex;
+  width: auto;
+  height: 33vh;
+  border: royalblue 4px solid;
+}
+
+.bottom-boxes {
+  width: 50vw;
+  border: grey 2px solid;
+}
