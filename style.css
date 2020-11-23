@@ -1,11 +1,11 @@
 body {
-  background-color: yellow;
+  background-color: white;
 
 }
 
 #name {
   display: flex;
-  border: red solid 3px;
+  border: orange solid 3px;
   justify-content: center;  
   text-align: center;
   /* width: auto; */
@@ -15,52 +15,79 @@ body {
 }
 
 p {
+  color: blue;
   width: auto;
   justify-content: center;  
   text-align: center;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15vw;
-  border: royalblue solid 3px;
+  font-size: 5vw;
+  border: blue solid 3px;
+}
+
+p:hover {
+  transform: scale(1.2);
+  background-color: blue;
+  color: black;
 }
 
 #top {
   display: flex;
   width: auto;
   height: 30vh;
-  border: royalblue 4px solid;
+  border: blue 4px solid;
 }
 
 .top-boxes {
   width: 30vw;
-  border: grey 2px solid;
+  border: blue 2px solid;
 }
+
+/* .top-boxes:hover {
+  transform: scale(1.2);
+  background-color: black;
+} */
 
 #left {
   display: flex;
-  width: 30vw;
-  /* justify-content: center;  
-  text-align: center; */
-  border: black solid 4px;
-
+  width: 40vw;
+  border: green solid 10px;
+  background-color: violet;
 }
+
+/* #left:hover {
+  transform: scale(1.2);
+  background-color: black;
+} */
 
 #right {
-  width: 30vw;
-  /* justify-content: center;  
-  text-align: center; */
-  border: black solid 3px;
+  display: flex;
+  width: 40vw;
+  border: black solid 5px;
+  background-color: violet;
 }
+
+/* #right:hover {
+  transform: scale(1.2);
+  background-color: black;
+} */
 
 
 #bottom {
   display: flex;
   width: auto;
-  height: 33vh;
-  border: royalblue 4px solid;
+  height: 54vh;
+  border: black 4px solid;
 }
 
 .bottom-boxes {
   width: 50vw;
-  border: grey 2px solid;
+  border: blue 2px solid;
+  background-color: orange;
 }
+
+/* .bottom-boxes:hover {
+  transform: scale(1.5);
+  background-color: black;
+} */
+
