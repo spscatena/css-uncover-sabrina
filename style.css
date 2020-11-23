@@ -5,89 +5,62 @@ body {
 
 #name {
   display: flex;
-  border: orange solid 3px;
   justify-content: center;  
   text-align: center;
-  /* width: auto; */
-  /* margin: auto; */
-  /* margin-top: 10%; */
+
 
 }
 
 p {
-  color: blue;
+  color: white;
   width: auto;
   justify-content: center;  
   text-align: center;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 5vw;
-  border: blue solid 3px;
+  font-size: 3.9vw;
 }
 
-p:hover {
-  transform: scale(1.2);
-  background-color: blue;
-  color: black;
-}
+
 
 #top {
   display: flex;
   width: auto;
-  height: 30vh;
-  border: blue 4px solid;
+  height: 7vh;
 }
 
 .top-boxes {
-  width: 30vw;
-  border: blue 2px solid;
+  width: 5vw;
 }
 
-/* .top-boxes:hover {
-  transform: scale(1.2);
-  background-color: black;
-} */
+
 
 #left {
   display: flex;
-  width: 40vw;
-  border: green solid 10px;
-  background-color: violet;
+  width: 5vw;
+
 }
 
-/* #left:hover {
-  transform: scale(1.2);
-  background-color: black;
-} */
+
 
 #right {
   display: flex;
-  width: 40vw;
-  border: black solid 5px;
-  background-color: violet;
+  width: 5vw;
+  background-color: white;
 }
 
-/* #right:hover {
-  transform: scale(1.2);
-  background-color: black;
-} */
 
 
 #bottom {
   display: flex;
   width: auto;
-  height: 54vh;
-  border: black 4px solid;
+  height: 7vh;
 }
 
 .bottom-boxes {
-  width: 50vw;
-  border: blue 2px solid;
-  background-color: orange;
+  width: 5vw;
+  background-color: white;
 }
 
-/* .bottom-boxes:hover {
-  transform: scale(1.5);
-  background-color: black;
-} */
+
 

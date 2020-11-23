@@ -1,7 +1,11 @@
-// {/* <div onmouseover=“colorRed(this)” class=“bottom-boxes”></div>
-//   </div> */}
+
 
 function colorRed(elem) {
-  // console.log("anything")
-  elem.style.background = "red";
+  elem.style.background = "black";
+}
+
+
+function colorBlue(elem) {
+  elem.style.color = "white";
+  elem.style.background = "black";
 }
